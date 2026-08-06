@@ -1,0 +1,14 @@
+node_modules/
+npm-debug.log*
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+
+.env
+.env.*
