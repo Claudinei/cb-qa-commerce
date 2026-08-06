@@ -64,6 +64,7 @@ cypress/
 ├── fixtures/
 ├── pages/
 ├── services/
+└── support/
 
 ```
 
