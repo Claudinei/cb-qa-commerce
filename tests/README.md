@@ -13,7 +13,7 @@ Projeto de automação de testes funcionais utilizando Cypress com BDD através 
 
 Antes de executar o projeto, é necessário possuir:
 
-- Node.js instalado (versão 18 ou superior)
+- Node.js instalado (versão 18)
 - NPM instalado
 - Aplicação web e API em execução localmente
 
