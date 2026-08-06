@@ -7,7 +7,6 @@ class CartApi {
       failOnStatusCode: false
     });
   }
-
 }
 
 export default new CartApi();

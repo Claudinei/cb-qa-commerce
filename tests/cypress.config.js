@@ -26,6 +26,9 @@ module.exports = defineConfig({
   },
 
   env: {
-    stepDefinitions: "cypress/e2e/web/step_definitions/**/*.js",
+    stepDefinitions: [
+      "cypress/e2e/web/step_definitions/**/*.js",
+      "cypress/e2e/api/step_definitions/**/*.js"
+    ]
   },
 });

@@ -6,7 +6,6 @@ class ProductPage {
       .find(".add-to-cart")
       .click();
   }
-
 }
 
 export default new ProductPage();
