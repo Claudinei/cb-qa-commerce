@@ -5,12 +5,12 @@ let userId;
 let userData;
 
 Given("que possuo os dados de um novo usuário", () => {
-  userData = {
-    name: "Nei QA",
-    email: `user${Date.now()}@teste.com`,
-    password: "Password123",
-    isAdmin: false
-  };
+  cy.fixture("user").then((user) => {
+    userData = {
+      ...user,
+      email: `user${Date.now()}@teste.com`
+    };
+  });
 });
 
 When("crio um usuário via API", () => {
